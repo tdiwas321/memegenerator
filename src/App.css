@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Karla",sans-serif;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    height: 80px;
+    padding-inline: 40px;
+}
+
+.navHeader{
+    display: flex;
+    align-self: center;
+    gap: 15px;
+}
+.navHeader>h1{
+font-size: 1.875rem;
+font-weight: 700;
+color:#ffffff ;
+
+}
+.navLogo{
+    width: 3.125rem;
+    height: max-content;
+    align-self: center;
+}
+
+.navbar> span{
+    align-self: center;
+    color: #ffffff;
+}
+
+.memeContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    flex-direction: column;
+}
+
+
+.memeInputContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.memeInput{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.memeForm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    width: 20rem;
+height: 2.5rem;
+border-radius: 4.91px;
+    padding: 1rem;
+    font-family: 'Karla',sans-serif;
+    border: 0.82px solid #D1D5DB;
+    box-shadow: 0px 0.8187389969825745px 1.637477993965149px 0px #0000000D;
+}
+
+label{
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+button{
+    width: 100%;
+height: 40px;
+border-radius: 5px;
+background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+color: #ffffff;
+border: none;
+}
+
+.memeImage{
+    max-width: 100%;
+    object-fit: fill;
+    height: 500px;
+}
+
+.imgContainer{
+    padding: 1rem;
+}
